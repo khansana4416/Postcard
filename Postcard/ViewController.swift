@@ -53,6 +53,8 @@ class ViewController: UIViewController {
         nameLable.text = enterNameTextField.text
         nameLable.textColor = UIColor.blueColor()
         enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
+        
         
     
     }
